@@ -1,6 +1,22 @@
 #import all necessary functionality to the Script
 import time
 import Adafruit_ADS1x15
+import sys, getopt
+
+inputfile = ""
+rec_length = 60
+argv = sys.argv[1:]
+opts, args = getopt.getopt(argv,"hi:o:",["ifile=","rec_length="])
+for opt, arg in opts:
+  if opt == '-h':
+     print ('test.py -i <inputfile> -r <rec_length>')
+     sys.exit()
+  elif opt in ("-i", "--ifile"):
+     inputfile = arg
+#   elif opt in ("-r", "--rec_length"):
+#      rec_length = int(arg)
+     
+         
 
 # Create an ADS1115 ADC (16-bit) instance. Note you can change the I2C address from its default (0x48) and/or bus number
 #adc = Adafruit_ADS1x15.ADS1115()
@@ -15,20 +31,20 @@ adc = Adafruit_ADS1x15.ADS1115(address=0x48, busnum=1)
 #  -   8 = +/-0.512V
 #  -  16 = +/-0.256V
 # See table 3 in the ADS1015/ADS1115 datasheet for more info on gain.
-GAIN = 16
+GAIN = 1
 
 #Create a aribitary counter which will be used for the looping section
 Start = 0
 
 #Create a name for the Text file that we will write to. Keep in mind this file will be overwritten
 #Each time this script is run.
-f = open('Geophone_Data.txt','w')
+f = open(inputfile,'w')
 
 #We will use this as a small counter to determine how long it took to recieve all the data points
 t0 = time.time()
 
 #If you want the script to run for a whole day this will enable that to happen
-t_end = time.time() + (60 * 60 * 24)
+t_end = time.time() + (rec_length )#* 60 * 24)
 
 #This is a looping section that will take the data from the ADC as fast as python will let it. Adjust the 100 to larger values to record longer time.
 #System runs at approximately 25 readings per second. Note -If you do not print data to the shell this will go much faster.
@@ -54,7 +70,7 @@ while (time.time() < t_end):
     #Add one to the counter
     Start = Start + 1
     
-    print('Channel 0 minus 1: {0}'.format(value))
+    # print('Channel 0 minus 1: {0}'.format(value))
     # Pause for half a second.
     
     

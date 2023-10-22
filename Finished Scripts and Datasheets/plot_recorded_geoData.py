@@ -1,14 +1,31 @@
 import matplotlib.pyplot as plt
 import csv
+import sys, getopt
+
+
+inputfile = ""
+rec_length = 30
+argv = sys.argv[1:]
+opts, args = getopt.getopt(argv,"hi:o:",["ifile=","rec_length="])
+for opt, arg in opts:
+  if opt == '-h':
+     print ('test.py -i <inputfile>')
+     sys.exit()
+  elif opt in ("-i", "--ifile"):
+     inputfile = arg
 
 X = []
 Y = []
  
-with open('Geophone_Data.txt', 'r') as datafile:
+with open(inputfile, 'r') as datafile:
     plotting = csv.reader(datafile, delimiter=',')
     sample_count = 0
     for ROWS in plotting:
-        Y.append(int(ROWS[0]))
+        if abs(int(ROWS[0])) < 500:
+            #Y.append(0)
+            Y.append(int(ROWS[0]))
+        else:
+            Y.append(int(ROWS[0]))
         X.append(sample_count)
         sample_count += 1
         
