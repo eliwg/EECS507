@@ -25,7 +25,7 @@ with open(inputfile, 'r') as datafile:
             #Y.append(0)
             Y.append(int(ROWS[0]))
         else:
-            Y.append(int(ROWS[0]))
+            Y.append(abs(int(ROWS[0])))
         X.append(sample_count)
         sample_count += 1
         
