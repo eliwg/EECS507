@@ -1,0 +1,558 @@
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  123
+number of triplets:  41
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  125
+number of triplets:  41
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  51
+number of triplets:  17
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+number of steps detected:  153
+number of triplets:  51
+number of samples:  5981
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  133
+number of triplets:  44
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  31
+number of triplets:  10
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  131
+number of triplets:  43
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  110
+number of triplets:  36
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+number of steps detected:  28
+number of triplets:  9
+number of samples:  2000
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  44
+number of triplets:  14
+number of samples:  2005
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  123
+number of triplets:  41
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  125
+number of triplets:  41
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  51
+number of triplets:  17
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+number of steps detected:  153
+number of triplets:  51
+number of samples:  5981
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  133
+number of triplets:  44
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  31
+number of triplets:  10
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  131
+number of triplets:  43
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  110
+number of triplets:  36
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+number of steps detected:  28
+number of triplets:  9
+number of samples:  2000
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  44
+number of triplets:  14
+number of samples:  2005
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  123
+number of triplets:  41
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  125
+number of triplets:  41
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  51
+number of triplets:  17
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+number of steps detected:  153
+number of triplets:  51
+number of samples:  5981
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  133
+number of triplets:  44
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  31
+number of triplets:  10
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  131
+number of triplets:  43
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  110
+number of triplets:  36
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+number of steps detected:  28
+number of triplets:  9
+number of samples:  2000
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  44
+number of triplets:  14
+number of samples:  2005
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  123
+number of triplets:  41
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  125
+number of triplets:  41
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  51
+number of triplets:  17
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+number of steps detected:  153
+number of triplets:  51
+number of samples:  5981
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  133
+number of triplets:  44
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  31
+number of triplets:  10
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  131
+number of triplets:  43
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  110
+number of triplets:  36
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+number of steps detected:  28
+number of triplets:  9
+number of samples:  2000
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  44
+number of triplets:  14
+number of samples:  2005
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  123
+number of triplets:  41
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  125
+number of triplets:  41
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  51
+number of triplets:  17
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+number of steps detected:  153
+number of triplets:  51
+number of samples:  5981
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  133
+number of triplets:  44
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  31
+number of triplets:  10
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  131
+number of triplets:  43
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  110
+number of triplets:  36
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+number of steps detected:  28
+number of triplets:  9
+number of samples:  2000
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  44
+number of triplets:  14
+number of samples:  2005
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  147
+number of triplets:  49
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  161
+number of triplets:  53
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  64
+number of triplets:  21
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+number of steps detected:  189
+number of triplets:  63
+number of samples:  5981
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  179
+number of triplets:  59
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  47
+number of triplets:  15
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  161
+number of triplets:  53
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  147
+number of triplets:  49
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+number of steps detected:  70
+number of triplets:  23
+number of samples:  2000
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  59
+number of triplets:  19
+number of samples:  2005
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  147
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  161
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  64
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+number of steps detected:  189
+number of samples:  5981
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  179
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  47
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  161
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  147
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+number of steps detected:  70
+number of samples:  2000
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  59
+number of samples:  2005
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  123
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  125
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  51
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+number of steps detected:  153
+number of samples:  5981
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  133
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  31
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  131
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  110
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+number of steps detected:  28
+number of samples:  2000
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  44
+number of samples:  2005
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  77
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  93
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  42
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  111
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  26
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  109
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  93
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  41
+number of samples:  2005
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  77
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  93
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  42
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+number of steps detected:  123
+number of samples:  5981
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  111
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  26
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  109
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  93
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+number of steps detected:  27
+number of samples:  2000
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  41
+number of samples:  2005
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  39
+number of triplets:  39
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  41
+number of triplets:  41
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  16
+number of triplets:  16
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+number of steps detected:  54
+number of triplets:  53
+number of samples:  5981
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  47
+number of triplets:  47
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  13
+number of triplets:  13
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  44
+number of triplets:  44
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  42
+number of triplets:  42
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+number of steps detected:  17
+number of triplets:  16
+number of samples:  2000
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  17
+number of triplets:  17
+number of samples:  2005
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  29
+number of triplets:  29
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  32
+number of triplets:  32
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  14
+number of triplets:  14
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+number of steps detected:  44
+number of triplets:  43
+number of samples:  5981
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  41
+number of triplets:  41
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  12
+number of triplets:  12
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  39
+number of triplets:  39
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  38
+number of triplets:  38
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+number of steps detected:  16
+number of triplets:  16
+number of samples:  2000
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  15
+number of triplets:  15
+number of samples:  2005
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  88
+number of triplets:  0
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  98
+number of triplets:  0
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  42
+number of triplets:  0
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+number of steps detected:  131
+number of triplets:  0
+number of samples:  5981
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  125
+number of triplets:  0
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  37
+number of triplets:  0
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  118
+number of triplets:  0
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  115
+number of triplets:  0
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+number of steps detected:  48
+number of triplets:  0
+number of samples:  2000
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  44
+number of triplets:  0
+number of samples:  2005
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  88
+number of triplets:  0
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  98
+number of triplets:  0
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  42
+number of triplets:  0
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+number of steps detected:  131
+number of triplets:  0
+number of samples:  5981
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  125
+number of triplets:  0
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  37
+number of triplets:  0
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  118
+number of triplets:  0
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  115
+number of triplets:  0
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+number of steps detected:  48
+number of triplets:  0
+number of samples:  2000
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  44
+number of triplets:  0
+number of samples:  2005
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  88
+number of triplets:  29
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  98
+number of triplets:  32
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  42
+number of triplets:  14
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+number of steps detected:  131
+number of triplets:  43
+number of samples:  5981
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  125
+number of triplets:  41
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  37
+number of triplets:  12
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  118
+number of triplets:  39
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  115
+number of triplets:  38
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+number of steps detected:  48
+number of triplets:  16
+number of samples:  2000
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  44
+number of triplets:  14
+number of samples:  2005

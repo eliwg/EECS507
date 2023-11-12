@@ -1,10 +1,9 @@
 import csv
 import matplotlib.pyplot as plt
-import numpy as np
-from collections import deque
-import step_helper
 import sys, getopt
 
+
+#plots the step files with a uniform space between each step
 
 inputfile = ""
 argv = sys.argv[1:]
@@ -17,7 +16,6 @@ for opt, arg in opts:
      inputfile = arg
 
 
-##########################
 Y = []
 X = []
 buffer = 15
@@ -30,7 +28,7 @@ with open(inputfile, 'r') as datafile:
         samples = ROWS[0].split(",")
         for s in samples:
             if not (s == ''):
-                Y.append(int(s))
+                Y.append(abs(int(s)))
                 X.append(int(sample_count))
                 sample_count += 1
         for i in range (buffer):

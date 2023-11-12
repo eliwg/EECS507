@@ -49,8 +49,31 @@ def is_step(window_, mean_thresh):
         return True
     return False
 
-#writes a step to file in csv  format
+#writes a step(s) to file in csv  format
 def add_step_to_file(window,f):
+    count = 0
     for sample in window:
-        f.write(str((sample))+',')
-    f.write('\n')
+        if(count == len(window) - 1):
+            f.write(str((sample))+'\n')
+        else:
+            f.write(str((sample))+',')
+        count += 1
+
+#adds step to triplet with buffer -- no buffer for now
+def add_to_triplet(triplet, window, step_size):
+    #buffer = 5
+    while(not (len(window) == 0 )):
+        triplet.append(window.popleft())
+    #checks if triplet is full
+    if len(triplet) == (3*step_size):# + ( 2 * buffer):
+            return True
+    # for i in range(buffer):
+    #     triplet.append(0)
+    return False
+
+
+    
+        
+
+
+

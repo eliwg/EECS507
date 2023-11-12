@@ -5,6 +5,8 @@ from collections import deque
 import step_helper
 import sys, getopt
 
+#saves steps in groups of 3
+
 
 inputfile = ""
 argv = sys.argv[1:]
@@ -16,19 +18,14 @@ for opt, arg in opts:
   elif opt in ("-i", "--ifile"):
      inputfile = arg.split("/")[-1]
 
-#idea 1 save last 10 samp if |5 samp| > 5000 -> step
-#idea 2 is above easier than 10 samp abs moving avg
-#idea 3 check stand dev above certain threshold
 
-##########################
 Y = []
 Y_step = []
 X = []
 step_size = 12
 after_step = 15
-#abs_threshold = 1500
 data_path = "data/raw/"
-f = open("data/steps/" + inputfile.strip(".txt") + "_steps.txt",'w')
+f = open("data/steps_in_3s/" + inputfile.strip(".txt") + "_steps.txt",'w')
 
 with open(data_path + inputfile, 'r') as datafile:
     plotting = csv.reader(datafile, delimiter=',')
@@ -42,6 +39,8 @@ Y_step = Y.copy()
 window = deque()
 i = 0
 step_count = 0
+triplet_count = 0
+triplet = []
 mean_thresh = np.mean(Y) + np.std(Y)
 while i < len(Y):
     # print("i, Y[i]: ", i, ", ", Y[i])
@@ -57,12 +56,18 @@ while i < len(Y):
                 for j in range(after_step):
                     i += 1
                     window.append(Y[i])
-                step_helper.add_step_to_file(window,f)
+                #add step to triplet
+                if step_helper.add_to_triplet(triplet, window, step_size+after_step):
+                    step_helper.add_step_to_file(triplet,f)
+                    triplet_count += 1
+                    triplet.clear()
                 i +=1
                 window.clear()
                 step_count += 1
             else:
                 i += after_step
+
+            
         else:
             # print("i: ", i )
             # print(len(step))
@@ -80,7 +85,6 @@ f.close()
 # plt.show()
 
 print("number of steps detected: ", step_count)
-        
-    
+print("number of triplets: ", triplet_count)
 
 print("number of samples: ", len(Y))
