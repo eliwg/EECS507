@@ -73,7 +73,8 @@ normal_cutoff = cutoff / nyq
 # Get the filter coefficients 
 b, a = butter(order, normal_cutoff, btype='low', analog=False)
 y = filtfilt(b, a, data)
-
+# plt.plot(np.linspace(0,np.size(y),np.size(y),endpoint=False),y)
+# plt.show()
 
 # fig = go.Figure()
 # fig.add_trace(go.Scatter(
@@ -92,9 +93,13 @@ y = filtfilt(b, a, data)
 sig_noise_fft = fft(data)
 sig_noise_amp = 2 / np.size(data) * np.abs(sig_noise_fft)
 sig_noise_freq = np.abs(fftfreq(np.size(data), 60/np.size(data)))
-plt.plot(np.abs(sig_noise_freq), sig_noise_amp)
-plt.xlabel("Frequency (Hz)")
-plt.ylabel("Amplitude")
-plt.title(inputfile.strip(".txt") + " dataset Frequency Domain")
-#plt.show()
-plt.savefig("pictures/"+inputfile.strip(".txt")+"_FD.png")
+# plt.plot(np.abs(sig_noise_freq), sig_noise_amp)
+# plt.xlabel("Frequency (Hz)")
+# plt.ylabel("Amplitude")
+# plt.title(inputfile.strip(".txt") + " dataset Frequency Domain")
+# #plt.show()
+# plt.savefig("pictures/"+inputfile.strip(".txt")+"_FD.png")
+
+# runner = inputfile.split('W')[1][0]  
+# if(runner == 'n'):
+print(np.std(np.abs(y)))

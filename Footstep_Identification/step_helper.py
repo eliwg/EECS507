@@ -72,7 +72,10 @@ def add_to_triplet(triplet, window, step_size):
     return False
 
 
-    
+
+
+def make_bucket(sig_noise_amp,sig_noise_freq):
+    pass
         
 
 

@@ -25,8 +25,11 @@ for file in "$directory"/*; do
       "t")
         python3  Footstep_Identification/FootStepSplicer_to_3s.py -i "$file" >> Footstep_Identification/footstep_splicing_inf.txt
         ;;
+      "c")
+        python3  Footstep_Identification/FootStepSplicer_to_3s_clean.py -i "$file" >> Footstep_Identification/footstep_splicing_inf.txt
+        ;;
       *)
-        echo "grouping not recognize. options: t or s"
+        echo "grouping not recognize. options: t or s or c"
         exit 1
         ;;
     esac

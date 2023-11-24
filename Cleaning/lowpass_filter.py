@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from collections import deque
 import sys, getopt
-from scipy.fft import fft, fftfreq, irfft
+from scipy.signal import butter, filtfilt
 import os
 
 
@@ -28,27 +28,29 @@ for file_name in os.listdir(data_path):
             Y.append(int(samp[0]))
             X.append(int(sample_count))
             sample_count += 1
-        #convert samples to time
-        time = np.array(X)/time
-        volt_diff = np.array(Y)
-
-        #for null, take mean value of the 20 sec freq for footstep ID
-        if(runner == 'n'):
-            pass 
-
-        yf = fft(volt_diff)
-        xf = fftfreq(np.size(time), 1 / 100)
-
-        #pass through lowpass
-        yf = yf * (abs(xf) < 38)
-        # plt.plot(xf, np.abs(yf))
-        # plt.show()
-        f_clean = open(new_path,'w')
-        filetered = irfft(yf)
         
+        #Butter
+        # Filter requirements.
+        T = 60        # Sample Period
+        fs = 100.0       # sample rate, Hz
+        cutoff = 37      # desired cutoff frequency of the filter, Hz ,      slightly higher than actual 1.2 Hz
+        nyq = 0.5 * fs  # Nyquist Frequency
+        order = 2       # sin wave can be approx represented as quadratic
+        n = int(T * fs) # total number of samples
+        data = np.array(Y)
+
+
+
+        normal_cutoff = cutoff / nyq
+        # Get the filter coefficients 
+        b, a = butter(order, normal_cutoff, btype='low', analog=False)
+        filtered = filtfilt(b, a, data)
+
+
+        f_clean = open(new_path,'w')
         #write filtered data 
         for i in range(sample_count):
-            f_clean.write(str(filetered[i]))
+            f_clean.write(str(filtered[i]) + '\n')
 
         f_clean.close()
         f.close()
