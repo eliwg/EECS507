@@ -52,12 +52,26 @@ with open(data_path + inputfile, 'r') as datafile:
         sample_count += 1
 Y_step = Y.copy()
 
+abs_mean = -1
+abs_std = -1
+
+if speed == 1:
+    abs_mean = s1_m
+    abs_std = s1_std
+elif speed == 2: 
+    abs_mean = s2_m
+    abs_std = s2_std
+elif speed == 3: 
+    abs_mean = s3_m
+    abs_std = s3_std
+
+
 window = deque()
 i = 0
 step_count = 0
 triplet_count = 0
 triplet = []
-mean_thresh = np.mean(Y) + np.std(Y)
+mean_thresh = abs_mean + abs_std
 shown = 0
 while i < len(Y):
     # print("i, Y[i]: ", i, ", ", Y[i])
@@ -73,10 +87,9 @@ while i < len(Y):
                 for j in range(after_step):
                     i += 1
                     window.append(Y[i])
-                step_starts.append(i-step_size-after_step) #get step start point
+                step_starts.append(i-step_size-after_step+1) #get step start point
                 #add step to triplet
                 if step_helper.add_to_triplet(triplet, window, step_size+after_step):
-                    step_helper.add_step_to_file(triplet,f)
                     triplet_count += 1
 
                     #add the extra features
@@ -84,21 +97,24 @@ while i < len(Y):
                     t2 = step_starts[-3] - step_starts[-2] - step_size - after_step
                     start_trip = step_starts[-3]
                     end_trip = i
-
-                    data= np.array(np.array(Y[step_starts[-3]:i]))
-                    #print(np.size(data))
+                    
+                    data= np.array(Y[start_trip:end_trip])
+                    
                     sig_noise_fft = fft(data)
                     sig_noise_amp = 2 / np.size(data) * np.abs(sig_noise_fft)
                     sig_noise_freq = np.abs(fftfreq(np.size(data), (end_trip - start_trip)/100/np.size(data)))
-                    amp_values = make_bucket(sig_noise_amp,sig_noise_freq)
-                    if shown < 1:
-                        plt.plot(np.abs(sig_noise_freq), sig_noise_amp)
-                        plt.xlabel("Frequency (Hz)")
-                        plt.ylabel("Amplitude")
-                        plt.title(inputfile.strip(".txt") + " dataset Frequency Domain")
-                        plt.show()
-                        print(sig_noise_freq)
-                        shown +=1
+                    amp_values = step_helper.make_bucket(sig_noise_amp,sig_noise_freq)
+                    step_helper.add_features_to_file(triplet,t1,t2,amp_values,speed,f)
+                    # if shown < 1:
+                    #     #print(str(start_trip) + " " + str(end_trip))
+                    #     plt.plot(np.abs(sig_noise_freq), sig_noise_amp)
+                    #     plt.xlabel("Frequency (Hz)")
+                    #     plt.ylabel("Amplitude")
+                    #     plt.title(inputfile.strip(".txt") + " dataset Frequency Domain")
+                    #     plt.show()
+                    #     print(sig_noise_freq)
+                    #     shown +=1
+                    #     print(amp_values)
                     
                     triplet.clear()
                 i +=1

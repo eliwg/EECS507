@@ -556,3 +556,43 @@ Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
 number of steps detected:  44
 number of triplets:  14
 number of samples:  2005
+Getting footsteps from data/raw/SP1_W165_STf_60s.txt
+number of steps detected:  196
+number of triplets:  65
+number of samples:  5992
+Getting footsteps from data/raw/SP1_W165_STh_60s.txt
+number of steps detected:  147
+number of triplets:  49
+number of samples:  5978
+Getting footsteps from data/raw/SP1_Wnul_STnul_20s.txt
+number of steps detected:  18
+number of triplets:  6
+number of samples:  1988
+Getting footsteps from data/raw/SP2_W165_STf_60s.txt
+number of steps detected:  220
+number of triplets:  73
+number of samples:  5981
+Getting footsteps from data/raw/SP2_W165_STh_60s.txt
+number of steps detected:  219
+number of triplets:  73
+number of samples:  5977
+Getting footsteps from data/raw/SP2_Wnul_STnul_20s.txt
+number of steps detected:  49
+number of triplets:  16
+number of samples:  2002
+Getting footsteps from data/raw/SP3_W165_STf_60s.txt
+number of steps detected:  221
+number of triplets:  73
+number of samples:  5988
+Getting footsteps from data/raw/SP3_W165_STh_60s.txt
+number of steps detected:  222
+number of triplets:  74
+number of samples:  6006
+Getting footsteps from data/raw/SP3_Wnul_STnul_20s.txt
+number of steps detected:  74
+number of triplets:  24
+number of samples:  2000
+Getting footsteps from data/raw/SP4_Wnul_STnul_20s.txt
+number of steps detected:  74
+number of triplets:  24
+number of samples:  2005

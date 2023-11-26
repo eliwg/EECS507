@@ -59,6 +59,15 @@ def add_step_to_file(window,f):
             f.write(str((sample))+',')
         count += 1
 
+#writes a step(s) to file in csv  format
+def add_features_to_file(window,t1,t2,amps,speed,f):
+    count = 0
+    for sample in window:
+        f.write(str((sample))+',')
+    for bins in amps:
+        f.write(str((bins))+',')
+    f.write(str(t1) + ',' + str(t2) + ',' + str(speed) + '\n')
+
 #adds step to triplet with buffer -- no buffer for now
 def add_to_triplet(triplet, window, step_size):
     #buffer = 5
@@ -73,10 +82,18 @@ def add_to_triplet(triplet, window, step_size):
 
 
 
-
+#create a list of buckets for freq domain characteristics
 def make_bucket(sig_noise_amp,sig_noise_freq):
-    pass
-        
-
+    buckets = [0]
+    bin = 20
+    for i in range(np.size(sig_noise_freq)):
+        if sig_noise_freq[i] > 35:
+            break
+        elif sig_noise_freq[i] > bin + 1:
+            bin += 1
+            buckets.append(sig_noise_amp[i])
+        elif sig_noise_freq[i] >= bin:
+            buckets[-1] += sig_noise_amp[i]
+    return buckets
 
 
