@@ -63,10 +63,11 @@ def add_step_to_file(window,f):
 def add_features_to_file(window,t1,t2,amps,speed,f):
     count = 0
     for sample in window:
-        f.write(str((sample))+',')
+        f.write(str((np.abs(sample)))+',')
     for bins in amps:
         f.write(str((bins))+',')
-    f.write(str(t1) + ',' + str(t2) + ',' + str(speed) + '\n')
+    f.write(str(t1) + ',' + str(t2) + ',' + str(speed)+'\n')
+
 
 #adds step to triplet with buffer -- no buffer for now
 def add_to_triplet(triplet, window, step_size):
@@ -94,6 +95,8 @@ def make_bucket(sig_noise_amp,sig_noise_freq):
             buckets.append(sig_noise_amp[i])
         elif sig_noise_freq[i] >= bin:
             buckets[-1] += sig_noise_amp[i]
+    if not(len(buckets) == 15):
+        print(buckets)
     return buckets
 
 

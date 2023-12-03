@@ -64,6 +64,10 @@ elif speed == 2:
 elif speed == 3: 
     abs_mean = s3_m
     abs_std = s3_std
+elif speed == 4: 
+    abs_mean = s4_m
+    abs_std = s4_std
+
 
 
 window = deque()
@@ -71,7 +75,7 @@ i = 0
 step_count = 0
 triplet_count = 0
 triplet = []
-mean_thresh = abs_mean + abs_std
+mean_thresh = abs_mean + 2*abs_std
 shown = 0
 while i < len(Y):
     # print("i, Y[i]: ", i, ", ", Y[i])
@@ -93,8 +97,8 @@ while i < len(Y):
                     triplet_count += 1
 
                     #add the extra features
-                    t1 = step_starts[-2] - step_starts[-1] - step_size - after_step
-                    t2 = step_starts[-3] - step_starts[-2] - step_size - after_step
+                    t1 = step_starts[-2] - step_starts[-3] - step_size - after_step
+                    t2 = step_starts[-1] - step_starts[-2] - step_size - after_step
                     start_trip = step_starts[-3]
                     end_trip = i
                     

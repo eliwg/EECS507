@@ -31,7 +31,7 @@ for file_name in os.listdir(data_path):
         
         #Butter
         # Filter requirements.
-        T = 60        # Sample Period
+        T = time        # Sample Period
         fs = 100.0       # sample rate, Hz
         cutoff = 37      # desired cutoff frequency of the filter, Hz ,      slightly higher than actual 1.2 Hz
         nyq = 0.5 * fs  # Nyquist Frequency
