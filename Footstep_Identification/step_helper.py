@@ -85,18 +85,12 @@ def add_to_triplet(triplet, window, step_size):
 
 #create a list of buckets for freq domain characteristics
 def make_bucket(sig_noise_amp,sig_noise_freq):
-    buckets = [0]
-    bin = 20
+    buckets = [0] * 15
     for i in range(np.size(sig_noise_freq)):
-        if sig_noise_freq[i] > 35:
-            break
-        elif sig_noise_freq[i] > bin + 1:
-            bin += 1
-            buckets.append(sig_noise_amp[i])
-        elif sig_noise_freq[i] >= bin:
-            buckets[-1] += sig_noise_amp[i]
-    if not(len(buckets) == 15):
-        print(buckets)
+        if sig_noise_freq[i] >= 20 and sig_noise_freq[i] < 35:
+            if int(sig_noise_freq[i])-20 > 14:
+                print("ERROR")
+            buckets[int(sig_noise_freq[i])-20] += sig_noise_amp[i]
     return buckets
 
 
